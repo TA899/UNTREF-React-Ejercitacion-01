@@ -26,7 +26,7 @@ function Main () {
     <section id="inicio" className = "section">
       <h2>Inicio</h2>
       <p>Esta es una página de ejemplo con más etiquetas de HTML y CSS para practicar la conversión a React.</p>
-      <img src="/UNTREF-React-Ejercitacion-01/img/pepegrillo.webp" width="200px" alt="Ejemplo de imagen" />
+      <img src={`${import.meta.env.BASE_URL}img/pepegrillo.webp`} width="200px" alt="Ejemplo de imagen" />
     </section>
 
     <section id="sobre-mi" className = "section">
